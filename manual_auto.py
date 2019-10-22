@@ -6,7 +6,7 @@ import re
 import sys
 
 #file = open('resultado_manual_formatado.csv', 'r')
-file = open('fm.csv', 'r')
+file = open('ck.csv', 'r')
 #output = open('manual_formated_fm_ck.csv')
 
 
@@ -22,7 +22,7 @@ def fm(changes, tags):
     return "todo"
 
 
-def ck(columns):
+def fm(columns):
     poscommit = 0
     posauthor = 1
     poschange_FM = 2
@@ -101,4 +101,4 @@ for line in file:
 file.close()
 
 #fm_ck(columnChanges)
-ck(columnChanges)
+fm(columnChanges)
