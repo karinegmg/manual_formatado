@@ -52,29 +52,31 @@ def ck(columns):
 
             if(len(changeLine) > len(tagLine)):
                 while(j < len(tagLine)):
-                    tagsAndChange = tagsAndChange + '(\'{}\' | \'{}\')'.format(changeLine[j], tagLine[j])
+                    tagsAndChange = tagsAndChange + '(\'{}\'|\'{}\')'.format(changeLine[j], tagLine[j])
                     #print(tagsAndChange)
                     j = j + 1
                     diff = j
+                diff = diff + 1
                 while(diff < len(changeLine)):
-                    diff = diff + 1
                     tagsAndChange = tagsAndChange + '(\'{}\' | \'{}\')'.format(changeLine[diff], tagLine[j])
-                    #diff = diff + 1
+                    diff = diff + 1
             
             elif(len(tagLine) > len(changeLine)):
                 while(j < len(changeLine)):
-                    tagsAndChange = tagsAndChange + '(\'{}\' | \'{}\')'.format(changeLine[j], tagLine[j])
+                    tagsAndChange = tagsAndChange + '(\'{}\'|\'{}\')'.format(changeLine[j], tagLine[j])
                     #print(tagsAndChange)
                     j = j + 1
                     diff = j
+                diff = diff + 1
                 while(diff < len(tagLine)):
+                    
+                    tagsAndChange = tagsAndChange + '(\'{}\'|\'{}\')'.format(changeLine[j], tagLine[diff])
                     diff = diff + 1
-                    tagsAndChange = tagsAndChange + '(\'{}\' | \'{}\')'.format(changeLine[j], tagLine[diff])
                     
             
             elif(len(tagLine) == len(changeLine)):
                 while(j < len(changeLine)):
-                    tagsAndChange = tagsAndChange + '(\'{}\' | \'{}\')'.format(changeLine[j], tagLine[j])
+                    tagsAndChange = tagsAndChange + '(\'{}\'|\'{}\')'.format(changeLine[j], tagLine[j])
                     #print(tagsAndChange)
                     j = j + 1
                     
@@ -82,8 +84,8 @@ def ck(columns):
             i = i + 1
 
             #print(tagsAndChange)
-            output_line = "{},{},{}".format(commit, author, tagsAndChange)
-            print(output_line)
+        output_line = "{},{},{}".format(commit, author, tagsAndChange)
+        print(output_line)
 
     return "TODO"
 
@@ -98,5 +100,5 @@ for line in file:
 
 file.close()
 
-fm_ck(columnChanges)
+#fm_ck(columnChanges)
 ck(columnChanges)

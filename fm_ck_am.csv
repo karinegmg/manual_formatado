@@ -1,0 +1,79 @@
+hash,author_name,change_type_fm,kconfig_tags,change_type_ck,makefile_tags,has_new_template,TAGS
+2c727429e244c074a45c0d99b8ba57ad7fb6df36,Leandro Dorileo,rename,rename,rename,rename,,#REF!
+0e485bad769392e3373c005618725e43a247073c,Ulisses Furquim,move,feature,move,ifeq;mappingA,,#REF!
+d86b9f94c6599ef2e8e9c855f3dfb4cfcfddc019,Bruno Dilly,add;change,feature;menu,add;remove;change,mappingA;vars,,#REF!
+2de4ce974f7f154da1d781a25b523632b5718fa6,Bruno Dilly,add,feature,add;new;remove,vars;mappingA;mappingR,,#REF!
+761cbea6d3e414e2b86b11c8ce40fe35ccae5b04,Bruno Dilly,add,feature,add;remove;add,vars;ifeq;mappingA;mappingR,,#REF!
+8d5c4d8ce4c4047817b41a1509c5b23521787411,Gustavo Sverzut Barbieri,new;add;change,menu;feature;depends;default,add;change,ifeq;vars,,#REF!
+86bd1da915df30b353e147076c5517f458218940,Gustavo Lima Chaves,rename,rename,add,ifeq;vars,,#REF!
+0db25d377c97e476644de1c575154f227e9e7569,Bruno Dilly,move;new,feature;depends,add;change,ifeq;mappingA;vars,,#REF!
+c4fa99f2cc31d46d718e73389b4661534c0c6701,Rodrigo Chiossi,add,feature;menu,new;add,mappingA;rules;targets;vars,,#REF!
+99449c9ed0b1ecc3d53ccc6b693025773184af41,JosĂ© Roberto de Souza,add,feature,add,ifeq;mappingA,,#REF!
+89224f538a9bd40f43ed5c82b363c4f96d22b2e9,Leandro Dorileo,add,feature,add,mappingA;rules;vars,,#REF!
+7abc555156d45e998fb7beac6279dcf7222bb3aa,Leandro Dorileo,rename,rename,rename,rename,,#REF!
+82d6362448e5ca3d5764563a04f525bbafe06311,Leandro Pereira,add,feature,add,mappingA;ifeq,,#REF!
+c3e1109fda7e85441f28e78e21e182da108743cb,Leandro Dorileo,add,feature;depends;menu,add,ifeq;mappingA,,#REF!
+4f3c026ef41d0005da25c898038185c014ba7e08,Leandro Dorileo,add,feature,add,ifeq,,#REF!
+aca3b23d5c80adb78f02b818bdf04615cc10b968,Leandro Dorileo,rename,rename,rename,rename,,#REF!
+b9dc3ad401186bd7fac568101f87b750bd525dc4,Gustavo Sverzut Barbieri,add,feature,new,mappingA;ifeq,,#REF!
+bab5c0767417253e56914030f9a4ced8321f4755,Murilo Belluzzo,add,feature;depends,add,mappingA;ifeq,,#REF!
+75c9bb5a6f57abc262c4ea1965b3f838ad2f666b,IvĂ¡n Briano,move,feature,move;remove,mappingA;mappingR,,#REF!
+c1d5b0f4a976c5ea807298f4dd1b6b8ede2ceb63,IvĂ¡n Briano,rename,rename,rename,rename,,#REF!
+3fed93d07f8efd8900704119bcdd0dd60b05d5bb,IvĂ¡n Briano,remove;change,feature;depends,remove;change,ifeq;mappingA;mappingL,,#REF!
+88fc6be9dc042d1be93708d3134050167e9858a4,Murilo Belluzzo,rename,rename,rename,rename,,#REF!
+85f9680c317da7e664e8469b5cd4e5067f431539,Leandro Dorileo,add,feature,add,ifeq;mappingA,,#REF!
+b29fad7082024e96ed5d67058830fcfda905f756,IvĂ¡n Briano,rename,rename,rename,rename,,#REF!
+a84a4e6607a43571104fd9f9098cb2466aee873e,IvĂ¡n Briano,change,depends,add,ifdef,,#REF!
+f392f4e94b4155d616041fd68cf107c886945f57,Gustavo Lima Chaves,rename,rename,change;add,mappingR;ifeq,,#REF!
+af63bff3856e255c24a5f1db3e9a5cc9dcbc191f,Gustavo Lima Chaves,add,feature,change,ifeq,,#REF!
+0b0d12fb99fd0c01393dbfe9b1f1013844926ebb,Leandro Dorileo,add,feature,add,ifeq,,#REF!
+3a13473ea8d426c9783c08c6fa79157f242b2d6c,IvĂ¡n Briano,add,select,add,mappingR,,#REF!
+16b7dafa5032c82e249b34affdfad41d8497345d,Gustavo Lima Chaves,add,feature,add,mappingA;mappingR,,#REF!
+3e78c8713432e14df8f37aa360437bd7418c6641,Gustavo Sverzut Barbieri,add,feature,new,mappingA,,#REF!
+5d828031aa0dfdfa42272ab265a149850367f895,Flavio Ceolin,add,feature,new,mappingA,,#REF!
+c03a9c1fe2c078ead78accb5ea5765a42e99918a,Bruno Dilly,add,feature,new,mappingA,,#REF!
+a759e556dd6e6ca108dcd7ba7652acfe415d5c49,Bruno Dilly,add,feature,new,mappingA,,#REF!
+079af402a8cf712f9806f232cf9a8eec4aa23d2b,Bruno Dilly,add,feature,new,mappingA,,#REF!
+e538eac055eb773ea9b1503580271038cf5d0ac5,Gustavo Lima Chaves,rename,rename,change,mappingR,,#REF!
+4c792c7237bc2799bb53d6566b466a35f34dc553,Ederson de Souza,add;change,feature;depends,add,mappingA;mappingR,,#REF!
+3128fbeba93c3fc6cf91e034bdb99cdf274a577f,Ederson de Souza,add;change,menu;feature;depends,add;remove,mappingA;mappingR,,#REF!
+029e354e7f36397612c2a41a5326fb14a3da993e,Ederson de Souza,add;change,feature;depends,new,mappingA,,#REF!
+ce390eee8bcf30caf4b185c193f221feb17a9243,IvĂ¡n Briano,change,depends,remove,mappingA,,#REF!
+44f4aa11479d7c3b148ac2bb913b5f89870fe72f,Gustavo Sverzut Barbieri,change,depends;default,add,ifeq,,#REF!
+26a40ae3246b4ff733f19692716f6b2efe63ab88,Murilo Belluzzo,rename,rename,move,mappingA,,#REF!
+f302adf430197c6c71a4360140fb2ccc3fc563ad,Leandro Pereira,add,depends,add,mappingA;mappingR,,#REF!
+4d014c550390a75ba9f60ac6a9dbf0aea3d3d100,Guilherme Iscaro de Godoy,add,feature,add,mappingA,,#REF!
+ddeba561268f95bb1334ba2508a689a087401dd2,Gustavo Sverzut Barbieri,add,feature,new,mappingA,,#REF!
+526ef783f0475671bd023ef06dae8604e7cfb974,Gustavo Sverzut Barbieri,add,feature;select;menu,new,mappingA,,#REF!
+edbd55219631e3a0a25313975dd5af67030dbfeb,Gustavo Sverzut Barbieri,add,feature,new,mappingA,,#REF!
+d243cd35c44a4dd71fda02223c5db0efb8b17e96,Bruno Dilly,add,depends,add,mappingA,,#REF!
+cab890170831a1f7f76d4070b9b41f1409b9647d,IvĂ¡n Briano,add,select,add,mappingA,,#REF!
+401c92b6c452ba4c0ecd0dd75a5109ffcd9d2814,Guilherme Iscaro de Godoy,add,feature,new,mappingA,,#REF!
+27283f69ace3ea1c8ae2ddb8beca86f43f5e80b9,Murilo Belluzzo,rename,rename,rename,rename,,#REF!
+7a0795432fcfd0e4917fc5f4a236204ef8e23d3d,Ederson de Souza,add,menu;feature,add,mappingA;ifeq,,#REF!
+3556363e0f61dd4ec54f808880d9e1f2ad6defb3,Ederson de Souza,add,feature,new,mappingA,,#REF!
+7edb9d26bf95c447f42247b4f3e3c350a7968991,Bruno Dilly,add,feature,new,mappingA,,#REF!
+e689a223a8ffdd0bf2dfd4557275b704b40645d4,Gustavo Sverzut Barbieri,add,feature,new,mappingA,,#REF!
+b99c0de75aa595e42cca3e7b7ab049da51e6ed22,Leandro Dorileo,add,depends,add;remove,ifeq,,#REF!
+0fe43c4a7dd3816480055be005263b14f863a8b5,Ricardo de Almeida Gonzaga,add,feature;default,add,mappingA,,#REF!
+40a46b0134686c36141a22c2a4f8f56832a88fe3,IvĂ¡n Briano,add,select,add,mappingA,,#REF!
+5e11d54b6c02d25ceeeb621fb2a0151f51a079d9,Gustavo Lima Chaves,add,select,add,mappingA,,#REF!
+da9e39a186a2d8eec896da6fff7123ef456fdaf4,Gustavo Lima Chaves,add,select,add,mappingA,,#REF!
+b5e2f70b12d7bb8a9f6227bedf8528f31c4a23d7,Gustavo Lima Chaves,add,select,add,mappingA,,#REF!
+81fcf36c14f614341dde9839d5da0aeddb7fa236,Gustavo Lima Chaves,add,select,add,mappingA,,#REF!
+ecf696de10ee26d4b8028df244c82584fd4c9a9a,Gustavo Sverzut Barbieri,add,feature,new,mappingA,,#REF!
+f06e26ab9733211c7d4cbd706837340839cbf672,Gustavo Sverzut Barbieri,add,feature,new;add,mappingA;mappingR,,#REF!
+186c6f1431a8537f9f01ca9c5493390c5c461fed,Gustavo Sverzut Barbieri,change,depends,new,mappingA,,#REF!
+329f8e18daed3df36c4c1a475c882a0784e95e50,IvĂ¡n Briano,add;new,feature;select,new,mappingA,,#REF!
+d95a0021b37ce37ca1c89d34a1b7f278d71ad5d1,IvĂ¡n Briano,add,select,new;add,mappingA;rules;vars,,#REF!
+cc3aac00d8fdaee1d6923a6e93b2c47baec2aa5d,Guilherme Iscaro de Godoy,add,feature,add,mappingA,,#REF!
+b8fc5d5a0fd8d9984e26dd4b32483765f53a7c1b,IvĂ¡n Briano,add,select,add,mappingA;mappingR,,#REF!
+580c1eebacf9c11020d37e022f61d24347223391,Bruno Dilly,add,feature,add,mappingA,,#REF!
+9846ee415e8602f68e70dae69548eef2c481618d,Leandro Pereira,add,feature,add,mappingA,,#REF!
+35457813e4b7bc6fbcac132af9e34a93dcb829f9,Otavio Pontes,add,feature,add,mappingA,,#REF!
+ccd3dfbe28fd9e50ceeb15895bca3da993ea558f,Bruno Dilly,add,feature,add ,mappingA,,#REF!
+5590e726f1c5a66fc8ff64f3918ae49dbe01cd65,Bruno Dilly,add,feature,add,mappingA;mappingR,,#REF!
+1ae2dd3383329ef669e17a5e371a5b925a7a40bf,Flavio Ceolin,add,feature,add,mappingA,,#REF!
+8d2e8aeb2c00a20775cc8f38f000c232de600ba1,Bruno Dilly,add;remove,feature,add;remove,mappingA,,#REF!
+446bc7e43c97c7a54cb809980e76fb8552d11259,Caio Marcelo de Oliveira Filho,move,feature,move,mappingA,,#REF!
+5293f12e59f600812cab4a197a238f60a870dc28,Flavio Ceolin,rename,rename,rename,rename,,#REF!

@@ -1,0 +1,16 @@
+hash,author_name,change_type_fm,kconfig_tags,has_new_template,TAGS
+0ed695cce9c78ed456e50b4e43b76f76fc98dba2,Ulisses Furquim,rename,rename,,#REF!
+c9333e642c2e4bf159eac01665049f7e1907f922,Gustavo Sverzut Barbieri,rename,rename,,#REF!
+3e6c55022c35108a4ca3880f8a2a91c3d1bd1320,Murilo Belluzzo,rename,rename,,#REF!
+99da59e62c06da51b200a1ae72b2c903967ce8d0,Bruno Dilly,rename,rename,,#REF!
+134995dcfe7064737432a3de0bc5724a85cb6454,Gustavo Sverzut Barbieri,remove,depends,,#REF!
+a203c9784a40c58455388049ba5322972b9509c5,Bruno Dilly,rename,rename,,#REF!
+b3401ae23ace47455799f2e78d6e809c246d836d,Ederson de Souza,remove,depends,,#REF!
+dda987e9f63c38dc45e415bcaa02adbcf282a477,Leandro Dorileo,remove,depends,,#REF!
+3aaecc23b5bc9d8b5cdd050f02da892c828ccc96,Ricardo de Almeida Gonzaga,rename,rename,,#REF!
+647d8663444ccec36711c2f1cbe4439590ef5acc,IvĂ¡n Briano,add;change;remove,feature;depends,,#REF!
+12f6df817271fc15761cf4a367f4f0c054361148,IvĂ¡n Briano,add;new,feature;select,CA e addF,#REF!
+01fa8dd6a93083a17e95f1c7c193b1178e9f679b,Guilherme Iscaro de Godoy,add,depends,,#REF!
+54a74a79d9b41c0fbbaa48cd5265e1865434db44,IvĂ¡n Briano,add,feature;select;depends,,#REF!
+2b1d9be1d27c9144df5009715f8c4b0f406f7455,Bruno Dilly,rename,rename,,#REF!
+05c6a6a56ce8f5777fcc061b53a198c0fb1a5821,Gustavo Lima Chaves,add,feature,,#REF!
