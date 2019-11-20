@@ -6,8 +6,9 @@ import re
 import sys
 
 #file = open('resultado_manual_formatado.csv', 'r')
-file = open('ck.csv', 'r')
+#file = open('ck.csv', 'r')
 #output = open('manual_formated_fm_ck.csv')
+file = open('am.csv', 'r')
 
 
 poscommit = 0
@@ -18,9 +19,72 @@ poschange_CK = 4
 postag_CK = 5
 columnChanges = []
 
-def fm(changes, tags):
-    return "todo"
+def am(columns):
+    poscommit = 0
+    posauthor = 1
+    poschange_AM = 2
+    postag_AM = 3
+    poschange_CK = 4
+    postag_CK = 5
+    tags = []
+    changes = []
+    changedLine = []
+    ck_line = ""
+    
+    for line in columnChanges:
+        #print(line)
+        changedLine = line.split(",")
+        commit = changedLine[poscommit]
+        author = changedLine[posauthor]
+        tags.append(changedLine[postag_FM])
+        changes.append(changedLine[poschange_FM])
 
+        i = 0 
+        while(i < len(tags)):
+            tagsAndChange = "["
+            changeLine = changes[i].split(";")
+            tagLine = tags[i].split(";")
+            j = 0
+            diff = 0
+
+            if(len(changeLine) > len(tagLine)):
+                while(j < len(tagLine)):
+                    tagsAndChange = tagsAndChange + '(\'{}\'|\'{}\')'.format(changeLine[j], tagLine[j])
+                    #print(tagsAndChange)
+                    j = j + 1
+                    diff = j
+                diff = diff + 1
+                while(diff < len(changeLine)):
+                    tagsAndChange = tagsAndChange + '(\'{}\' | \'{}\')'.format(changeLine[diff], tagLine[j])
+                    diff = diff + 1
+            
+            elif(len(tagLine) > len(changeLine)):
+                while(j < len(changeLine)):
+                    tagsAndChange = tagsAndChange + '(\'{}\'|\'{}\')'.format(changeLine[j], tagLine[j])
+                    #print(tagsAndChange)
+                    j = j + 1
+                    diff = j
+                diff = diff + 1
+                while(diff < len(tagLine)):
+                    
+                    tagsAndChange = tagsAndChange + '(\'{}\'|\'{}\')'.format(changeLine[j], tagLine[diff])
+                    diff = diff + 1
+                    
+            
+            elif(len(tagLine) == len(changeLine)):
+                while(j < len(changeLine)):
+                    tagsAndChange = tagsAndChange + '(\'{}\'|\'{}\')'.format(changeLine[j], tagLine[j])
+                    #print(tagsAndChange)
+                    j = j + 1
+                    
+            tagsAndChange = tagsAndChange + "]"
+            i = i + 1
+
+            #print(tagsAndChange)
+        output_line = "{},{},{}".format(commit, author, tagsAndChange)
+        print(output_line)
+
+    return "TODO"
 
 def fm(columns):
     poscommit = 0
@@ -84,13 +148,16 @@ def fm(columns):
             i = i + 1
 
             #print(tagsAndChange)
-        output_line = "{},{},{}".format(commit, author, tagsAndChange)
+        output_line = "{},{},{}]".format(commit, author, tagsAndChange)
         print(output_line)
 
     return "TODO"
 
 def fm_ck(changes):
     return "to do"
+
+#def am(changes):
+
 
 for line in file:
     #print(line)
@@ -101,4 +168,5 @@ for line in file:
 file.close()
 
 #fm_ck(columnChanges)
-fm(columnChanges)
+#fm(columnChanges)
+am(columnChanges)
